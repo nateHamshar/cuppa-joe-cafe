@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.landingDiv{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.landingHeader{
+    font-weight: 300;
+    color: darkblue;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.landingSubHeader{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 1rem;
+    max-width: 90%;
+}
+.landingImage{
+    position: relative;
+    width: 100%;
+    height: 475px;
+    border-bottom: 2px solid gray;
+}
+.landingCTA{
+    background-color: transparent;
+    border: 1px solid orangered;
+    padding: .25rem;
+    border-radius: 5px;
+    color: orangered;
+    font-size: 1rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    z-index: 1;
+}
+.CTAlink{
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
