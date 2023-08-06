@@ -15,19 +15,23 @@ export default function Home() {
           <button className={styles.landingCTA}><a className={styles.CTAlink} href='/featured-drinks'>View Drink Menu</a></button>
           <div className={styles.landingImage}>
             <Image
-              src="/hero-image.png"
+              src="/hero-coffee-image.png"
               fill={true}
               alt=''
             />
           </div>
         </div>
         <div className={styles.breakfastDiv}>
-          <button className={styles.breakfastCTA}><a className={styles.CTAlink} href='/breakfast-items'>View Breakfast Menu</a></button>
+
+          <h1 className={styles.breakfastHeader}>Need Breakfast On The Go?</h1>
+          
           <div className={styles.pastryImage}>
+          <button className={styles.breakfastCTA}><a className={styles.CTAlink} href='/breakfast-items'>View Breakfast Menu</a></button>
             <Image
-              src="/pastry-circle.png"
+              src="/breakfast-circle.png"
               fill={true}
               alt=''
+              className={styles.rotate}
             />
           </div>
         </div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;800&display=swap');
 
 .landingDiv{
     margin-top: 5rem;
@@ -6,19 +7,7 @@
     flex-direction: column;
     position: relative;
 }
-.landingHeader{
-    font-weight: 300;
-    color: darkblue;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-.landingSubHeader{
-    font-weight: 300;
-    font-size: 1rem;
-    margin-left: 1rem;
-    max-width: 90%;
-}
+
 .landingImage{
     position: relative;
     width: 100%;
@@ -38,7 +27,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 110px;
+    top: 105px;
     z-index: 1;
 }
 .CTAlink{
@@ -50,12 +39,51 @@
 }
 
 .breakfastDiv{
-
+    margin-top: 8rem;
+    position: relative;
 }
-
+.breakfastHeader{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
 .pastryImage{
+    margin-top: 2rem;
     width: 100%;
     height: 400px;
     position: relative;
     background-color: transparent;
+}
+
+.breakfastCTA{
+    background-color: transparent;
+    border: 4px solid orangered;
+    height: 140px;
+    aspect-ratio: 1;
+    width: min-content;
+    border-radius: 50%;
+    color: orangered;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+    z-index: 1;
+}
+.CTAlink{
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.rotate{
+    animation: rotate 120s linear infinite; 
+  }
+
+@keyframes rotate{
+    to{ transform: rotate(360deg); }
 }
