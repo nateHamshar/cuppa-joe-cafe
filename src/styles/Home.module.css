@@ -48,3 +48,14 @@
     letter-spacing: 3px;
     font-weight: 100;
 }
+
+.breakfastDiv{
+
+}
+
+.pastryImage{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: transparent;
+}

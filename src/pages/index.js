@@ -20,7 +20,16 @@ export default function Home() {
               alt=''
             />
           </div>
-          
+        </div>
+        <div className={styles.breakfastDiv}>
+          <button className={styles.breakfastCTA}><a className={styles.CTAlink} href='/breakfast-items'>View Breakfast Menu</a></button>
+          <div className={styles.pastryImage}>
+            <Image
+              src="/pastry-circle.png"
+              fill={true}
+              alt=''
+            />
+          </div>
         </div>
       </main>
     </>
