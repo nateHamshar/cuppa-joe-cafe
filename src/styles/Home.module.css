@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;800&display=swap');
-
+/*
+    Color Pallet
+    green: #55cea2
+    yellow: #e5e39a
+    orangeCTA: orangered
+*/
 .landingDiv{
     margin-top: 5rem;
     display: flex;
@@ -82,8 +87,80 @@
 }
 .rotate{
     animation: rotate 120s linear infinite; 
-  }
+}
 
 @keyframes rotate{
     to{ transform: rotate(360deg); }
+}
+
+
+
+.iceCreamDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.iceCreamBanner1, .iceCreamBanner2{
+    height: 1rem;
+    background-color: #e5e39a;
+    border-bottom: .25rem solid #55cea2;
+    border-top: .25rem solid #55cea2;
+}
+
+.iceCreamBanner1{
+    margin-top: 10rem;
+}
+
+.iceCreamText{
+    font-family: "Bebas Neue", sans-serif;
+    width: 50%;
+    padding-left: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.iceCreamHeader{
+    width: 300px;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.iceCreamSubheader{
+    font-weight: 300;
+    font-size: 1.25rem;
+    width: 300px;
+}
+
+.iceCreamImage{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 160px;
+    height: 270px;
+}
+
+.iceCreamCTA{
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid orangered;
+    padding: .25rem;
+    border-radius: 5px;
+    color: orangered;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+
+.aboutSection{
+    height: 50rem;
+    background-color: gray1;
 }

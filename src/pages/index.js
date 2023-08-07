@@ -35,6 +35,30 @@ export default function Home() {
             />
           </div>
         </div>
+
+        <div className={styles.iceCreamBanner1}></div>
+        <div className={styles.iceCreamDiv}>
+          
+          <div className={styles.iceCreamText}>
+            <h1 className={styles.iceCreamHeader}>Craving Sugar?</h1>
+            <h2 className={styles.iceCreamSubheader}>We've got you covered.</h2>
+            <a href='/drink-types' className={styles.iceCreamCTA}>See Ice Cream Menu</a>
+          </div>
+          <div className={styles.iceCreamImage}>
+            <Image
+              src="/new-cone-image.png"
+              fill={true}
+              alt=''
+              className={styles.cakeCone}
+            />
+          </div>
+        </div>
+        <div className={styles.iceCreamBanner2}></div>
+
+
+        <div className={styles.aboutSection}>
+          
+        </div>
       </main>
     </>
   )
