@@ -3,7 +3,7 @@ import styles from '../styles/nav.module.css'
 import Image from 'next/image';
 const Nav = () => {
 
-    const [navHidden, setNavHidden] = useState(false)
+    const [navHidden, setNavHidden] = useState(true)
     
     const toggleNav = () => {
         if (navHidden == true) {
