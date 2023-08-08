@@ -21,7 +21,7 @@
 
 .typesSection{
     margin-top: 2rem;
-    margin-left: .6rem;
+    margin-left: 1rem;
     padding-bottom: 5rem;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .drinkName{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     width: 200px;
 }
