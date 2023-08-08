@@ -1,3 +1,58 @@
+.introSection{
+    margin-top: 10rem;
+    margin-left: 1.25rem;
+    padding-right: 20px;
+}
 .drinksHeader{
-    color: red;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgb(41, 41, 41);
+}
+.drinksDescription{
+    text-indent: 1rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.featuredDrinksSection{
+    margin-left: 1.25rem;
+    padding-right: 20px;
+    margin-top: 1rem;
+}
+
+.drinkDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.drinkName{
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgb(41, 41, 41);
+}
+
+.drinkFlavors{
+    font-weight: 300;
+    color: gray;
+    margin-left: 1rem;
+}
+
+
+.flavorsHeader{
+    margin-top: 4rem;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgb(41, 41, 41);
+    margin-left: 1.25rem;
+    padding-right: 20px;
+}
+.flavorsList{
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    padding-right: 20px;
+    font-weight: 300;
+    color: gray;
+}
+.flavorsSection{
+    padding-bottom: 10rem;
 }
