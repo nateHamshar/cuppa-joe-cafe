@@ -1,3 +1,44 @@
 .drinkTypesHeader{
     color: green;
 }
+.introSection{
+    margin-top: 8rem;
+}
+.introHeader{
+    font-weight: 400;
+    margin-left: 1rem;
+    font-size: 1.75rem;
+}
+.introDetails{
+    font-weight: 300;
+    color: gray;
+    margin-left: 1rem;
+    text-indent: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+
+.typesSection{
+    margin-top: 2rem;
+    margin-left: .6rem;
+    padding-bottom: 5rem;
+}
+
+.drinkTypeDiv{ 
+    display: flex;
+    align-items: center;
+}
+
+.drinkName{
+    font-size: 2rem;
+    font-weight: 300;
+    width: 200px;
+}
+
+.drinkImage{
+    margin-left: auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
