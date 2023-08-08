@@ -6,6 +6,9 @@
     yellow: #e5e39a
     orangeCTA: orangered
 */
+.main{
+    overflow-x: hidden;
+}
 .landingDiv{
     margin-top: 5rem;
     display: flex;
@@ -131,7 +134,8 @@
 .iceCreamSubheader{
     font-weight: 300;
     font-size: 1.25rem;
-    width: 300px;
+    width: 350px;
+    
 }
 
 .iceCreamImage{
@@ -140,6 +144,7 @@
     position: relative;
     width: 160px;
     height: 270px;
+    background-color: transparent;
 }
 
 .iceCreamCTA{
@@ -160,7 +165,59 @@
 }
 
 
-.aboutSection{
-    height: 50rem;
-    background-color: gray1;
+.storeDetailsSection{
+    margin-top: 10rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+.storeHoursHeader{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+.hoursDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.dayList, .hoursList{
+    font-weight: 300;
+    list-style: none;
+    line-height: 2rem;
+}
+.dayLI{
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+.hoursLI{
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+
+.locationDiv{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.address{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #55cea2;
+    padding: 3px;
+    background-color: #e5e39a;
+}
+
+
+.placeholderDiv{
+    height: 30rem;
+
 }
