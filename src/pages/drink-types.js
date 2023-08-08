@@ -21,7 +21,7 @@ export default function Home() {
             <h1 className={styles.drinkName}>Latte</h1>
             <div className={styles.drinkImage}>
               <Image
-              src="/latte.png"
+              src="/Latte.png"
               fill={true}
               alt=''
               priority={true}
@@ -43,7 +43,7 @@ export default function Home() {
             <h1 className={styles.drinkName}>Americano</h1>
             <div className={styles.drinkImage}>
               <Image
-              src="/americano.png"
+              src="/Americano.png"
               fill={true}
               alt=''
               priority={true}
