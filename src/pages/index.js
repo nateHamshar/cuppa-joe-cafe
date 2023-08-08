@@ -83,7 +83,7 @@ export default function Home() {
             <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.3770713380713!2d-78.31570492365849!3d37.898248205037135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3ecbf6dbc22ef%3A0x625f304d86c8ab5b!2sCuppa%20Joe!5e0!3m2!1sen!2sus!4v1691457695711!5m2!1sen!2sus" width="350" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <div className={styles.placeholderDiv}></div>
+        <div className={styles.spacerDiv}></div>
       </main>
     </>
   )
