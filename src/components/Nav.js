@@ -3,7 +3,7 @@ import styles from '../styles/nav.module.css'
 import Image from 'next/image';
 const Nav = () => {
 
-    const [navHidden, setNavHidden] = useState(true)
+    const [navHidden, setNavHidden] = useState(false)
     
     const toggleNav = () => {
         if (navHidden == true) {
@@ -38,7 +38,9 @@ const Nav = () => {
                         <h2 className={styles.storeAddress}>90 Joshua Lane</h2>
                         <h2 className={styles.storeAddress}>Palmyra, VA 22963</h2>
                     </div>
-            </div>}
+                </div>
+            }
+            {!navHidden && <div className={styles.blurScreen} onClick={() => toggleNav()}></div>}
         </div>
     );
 }
