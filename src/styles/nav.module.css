@@ -9,7 +9,6 @@
     height: 40px;
     width: 100vw;
     max-width: 100vw;
-    overflow: hidden;
     z-index: 100;
 }
 .navButton{
@@ -23,8 +22,72 @@
     height: 2.5rem;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 .navButton:hover, .logo:hover{
     cursor: pointer;
+}
+
+.navToggler{
+    position: absolute;
+    right: 0;
+    background-color: #ebe9c3;
+    height: 100vh;
+    width: 50%;
+    top: 0;
+    margin-top: -1rem;
+    padding-top: 20%;
+    border-left: 3px solid #55cea2;
+    display: flex;
+    flex-direction: column;
+}
+
+.navList{
+    list-style: none;
+    line-height: 5rem;
+}
+.navItem{
+    border-bottom: 1px solid silver;
+    padding-left: 1rem;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.navItem:first-child{
+    border-top: 1px solid silver;
+}
+
+.navLink{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+}
+
+.navInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 50%;
+    margin-left: .3rem;
+}
+
+.storeName{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.storeNumber{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 400;
+}
+.storeNumber:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.storeAddress{
+    font-weight: 300;
+    font-size: 1.2rem;
 }

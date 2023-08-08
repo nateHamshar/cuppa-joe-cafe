@@ -1,0 +1,12 @@
+.footer{
+    height: 10rem;
+    background-color: #55cea2;
+    border-top: 5px solid #ebe9c3;
+}
+
+.footerHeader{
+    font-weight: 400;
+    color: black;
+    padding-top: 2rem;
+    text-align: center;
+}
