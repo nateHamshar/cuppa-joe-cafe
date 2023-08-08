@@ -24,6 +24,7 @@ export default function Home() {
               src="/latte.png"
               fill={true}
               alt=''
+              priority={true}
               />
             </div>
           </div>
@@ -34,6 +35,7 @@ export default function Home() {
               src="/cappuccino.png"
               fill={true}
               alt=''
+              priority={true}
               />
             </div>
           </div>
@@ -44,6 +46,7 @@ export default function Home() {
               src="/americano.png"
               fill={true}
               alt=''
+              priority={true}
               />
             </div>
           </div>
@@ -54,6 +57,7 @@ export default function Home() {
               src="/cafeaulait.png"
               fill={true}
               alt=''
+              priority={true}
               />
             </div>
           </div>
@@ -64,6 +68,7 @@ export default function Home() {
               src="/machiatto.png"
               fill={true}
               alt=''
+              priority={true}
               />
             </div>
           </div>
