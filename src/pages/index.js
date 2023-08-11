@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className={styles.iceCreamImage}>
             <Image
-              src="/new-cone-image.png"
+              src="/cake-cone.png"
               fill={true}
               alt=''
               className={styles.cakeCone}

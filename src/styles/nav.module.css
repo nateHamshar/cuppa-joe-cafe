@@ -12,8 +12,11 @@
     z-index: 100;
     border-bottom: 1px solid rgba(184, 184, 184, 0.445);
 }
+.logo{
+    padding-left: 2.5vw;
+}
 .navButton{
-    margin-right: 2.5%;
+    margin-right: 5vw;
     margin-left: auto;
     font-size: 2rem;
     font-weight: 300;
@@ -44,8 +47,8 @@
     height: 100vh;
     width: 50%;
     top: 0;
+    padding-top: 20vw;
     margin-top: -1rem;
-    padding-top: 20%;
     border-left: 3px solid #55cea2;
     display: flex;
     flex-direction: column;
@@ -98,4 +101,10 @@
 .storeAddress{
     font-weight: 300;
     font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 750px) {
+    .navToggler{
+        padding-top: 8vw;
+    }
 }
