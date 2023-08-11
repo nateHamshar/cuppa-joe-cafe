@@ -8,8 +8,10 @@ const Nav = () => {
     const toggleNav = () => {
         if (navHidden == true) {
             setNavHidden(false)
+            document.body.style.overflow = 'hidden'
         } else {
             setNavHidden(true)
+            document.body.style.overflow = ''
         }
     }
 
