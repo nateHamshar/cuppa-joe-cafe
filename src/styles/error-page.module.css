@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;800&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6rem;
+}
+.header{
+    margin-top: 10rem;
+    text-align: center;
+    font-family: "Alegreya";
+    font-size: 3rem;
+    font-weight: 400;
+}
+.constructionDuck{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    text-align: center;
+    font-family: "Alegreya";
+    font-size: 1.5rem;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.link{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background-color: transparent;
+    border: 2px solid orangered;
+    padding: .25rem;
+    border-radius: 5px;
+    color: orangered;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-weight: 500;
+}

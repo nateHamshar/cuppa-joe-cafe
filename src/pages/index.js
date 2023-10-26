@@ -26,7 +26,7 @@ export default function Home() {
           <h1 className={styles.breakfastHeader}>Need Breakfast On The Go?</h1>
           
           <div className={styles.pastryImage}>
-          <button className={styles.breakfastCTA}><a className={styles.CTAlink} href='/breakfast-items'>View Breakfast Menu</a></button>
+          <button className={styles.breakfastCTA}><a className={styles.CTAlink} href='/error-page'>View Breakfast Menu</a></button>
             <Image
               src="/breakfast-circle.png"
               fill={true}
@@ -42,7 +42,7 @@ export default function Home() {
           <div className={styles.iceCreamText}>
             <h1 className={styles.iceCreamHeader}>Craving Sugar?</h1>
             <h2 className={styles.iceCreamSubheader}>We've got you covered.</h2>
-            <a href='/drink-types' className={styles.iceCreamCTA}>See Ice Cream Menu</a>
+            <a href='/error-page' className={styles.iceCreamCTA}>See Ice Cream Menu</a>
           </div>
           <div className={styles.iceCreamImage}>
             <Image
