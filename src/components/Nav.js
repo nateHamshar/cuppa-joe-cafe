@@ -32,8 +32,7 @@ const Nav = () => {
             {!navHidden && <div className={styles.navToggler}>
                     <div className={styles.navItem}><a className={styles.navLink}href="/">Home</a></div>
                     <div className={styles.navItem}><a className={styles.navLink}href="/featured-drinks">Featured Drinks</a></div>
-                    <div className={styles.navItem}><a className={styles.navLink}href="/error-page">Breakfast Items</a></div>
-                    <div className={styles.navItem}><a className={styles.navLink}href="/error-page">Ice Cream</a></div>
+                    
                     <div className={styles.navItem}><a className={styles.navLink}href="/drink-types">Types of Drinks</a></div>
                     <div className={styles.navInfo}>
                         <h1 className={styles.storeName}>Cuppa Joe Cafe</h1>

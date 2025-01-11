@@ -18,7 +18,6 @@ export default function Error() {
                 src="/construction-duck.webp"
                 fill={true}
                 alt=''
-                className={styles.rotate}
             />
         </div>
         <h2 className={styles.text}>This page is still under construction.</h2>

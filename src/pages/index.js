@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
+import Carousel from "../components/Carousel.js"
+
+
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -11,16 +15,34 @@ export default function Home() {
         <link rel="icon" href="/cuppa_joe_mug_icon.png" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.landingDiv}>
-          <button className={styles.landingCTA}><a className={styles.CTAlink} href='/featured-drinks'>View Drink Menu</a></button>
-          <div className={styles.landingImage}>
+
+        <section className={styles.landingDiv}>
+          <div className={styles.heroImage}>
             <Image
-              src="/hero-coffee-image.png"
+              src="/slider-0.jpg"
               fill={true}
               alt=''
             />
+            <h1 className={styles.heroTitle}></h1>
           </div>
+        </section>
+
+        <div className={styles.banner}>
+        
         </div>
+        
+        <section className={styles.aboutSection}>
+          <h1 className={styles.aboutHeader}></h1>
+          <p className={styles.aboutParagraph}>Discover the heart of your community at Cuppa Joe Cafe, a locally owned shop for coffee enthusiasts. Immerse yourself in the rich aroma of our hand-crafted coffee and espresso drinks, complemented by an array of delightful homemade pastries. Join us at Cuppa Joe, where every cup is a taste of local pride and passion.</p>
+        </section>
+
+        <section className={styles.featuredSection}>
+          <div className={styles.featuredImages}></div>
+          <p className={styles.aboutParagraph}>
+          From rich and robust coffee blends to refreshing smoothies, we have crafted a menu that caters to every taste bud. If you're starting your day, explore our tempting breakfast options featuring freshly baked pastries and savory sandwiches.
+          </p>
+        </section>
+  {/*    
         <div className={styles.breakfastDiv}>
 
           <h1 className={styles.breakfastHeader}>Need Breakfast On The Go?</h1>
@@ -55,7 +77,7 @@ export default function Home() {
         </div>
         <div className={styles.iceCreamBanner2}></div>
 
-
+        */}
         <div className={styles.storeDetailsSection}>
           <h1 className={styles.storeHoursHeader}>Store Hours</h1>
           <div className={styles.hoursDiv}>
@@ -84,6 +106,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.spacerDiv}></div>
+
+  
       </main>
     </>
   )

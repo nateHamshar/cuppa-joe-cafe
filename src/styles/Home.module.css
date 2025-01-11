@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*
     Color Pallet
     green: #55cea2
@@ -7,24 +8,79 @@
     orangeCTA: orangered
 */
 .main{
+    --primary-color: rgb(27, 27, 27);
+    --secondary-color: orangered;
+}
+
+
+
+.main{
     overflow-x: hidden;
 }
 .landingDiv{
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: flex;
-    flex-direction: column;
+    width: 100vw;
+}
+.banner{
+    height: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+}
+.heroImage{
+    position: relative;
+    height: 250px;
+    max-width: 800px;
+    width: 100vw;
+    aspect-ratio: 2.31;
+}
+.heroTitle{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: White;
+    font-size: 2.2rem;
+    font-weight: 400;
+    z-index: 2;
+    position: absolute;
+    top: 45%;
+    bottom: 50%;
+    right: 2%;
+}
+
+.aboutSection{
+    margin-top: 2rem;
+}
+.aboutParagraph{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-indent: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: var(--primary-color);
+}
+
+
+.imageCarousel{
+    width: 80%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
     position: relative;
 }
 
-.landingImage{
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    aspect-ratio: 1;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.63);
-}
+.overlay {
+    z-index: 1;
+    position: absolute;
+    height: 900px;
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.5);
+    pointer-events: none; 
+  }
+
 .landingCTA{
     background-color: transparent;
     border: 1px solid orangered;
@@ -117,13 +173,13 @@
 }
 
 .iceCreamBanner1, .iceCreamBanner2{
-    height: .25rem;
+    height: .5rem;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #e5e39a;
-    border-bottom: .1rem solid #55cea2;
-    border-top: .1rem solid #55cea2;
+    background-color: var(--primary-color);
+    border-bottom: .2rem solid var(--secondary-color);
+    border-top: .2rem solid var(--secondary-color);
 }
 
 .iceCreamBanner1{
@@ -228,13 +284,14 @@
 .map{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
     width: 90vw;
     max-width: 600px;
     height: 90vw;
     max-height: 600px;
-    border: 5px solid #55cea2;
     padding: 3px;
-    background-color: #e5e39a;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .spacerDiv{
