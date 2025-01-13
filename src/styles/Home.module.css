@@ -30,10 +30,11 @@
 }
 .heroImage{
     position: relative;
-    height: 250px;
     max-width: 800px;
     width: 100vw;
-    aspect-ratio: 2.31;
+    aspect-ratio: 3 / 4;
+    max-height: 50vh;
+    filter: saturate(2.5);
 }
 .heroTitle{
     font-family: 'Alegreya Sans SC', sans-serif;

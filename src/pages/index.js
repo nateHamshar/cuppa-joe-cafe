@@ -19,7 +19,7 @@ export default function Home() {
         <section className={styles.landingDiv}>
           <div className={styles.heroImage}>
             <Image
-              src="/slider-0.jpg"
+              src="/cuppajoelobby.jpg"
               fill={true}
               alt=''
             />
