@@ -23,13 +23,15 @@ export default function Home() {
               fill={true}
               alt=''
             />
-            <h1 className={styles.heroTitle}></h1>
+            <div className={styles.imageOverlay}></div>
+            <h1 className={styles.heroTitle}>Cuppa Joe Cafe</h1>
+            <div className={styles.heroCTADiv}>
+              <a href="tel:4345910100" className={styles.CTAfirst}>(434) 591-0100</a>
+              <a href="/featured-drinks" className={styles.CTAsecond}>view menu</a>
+            </div>
           </div>
         </section>
 
-        <div className={styles.banner}>
-        
-        </div>
         
         <section className={styles.aboutSection}>
           <h1 className={styles.aboutHeader}></h1>
