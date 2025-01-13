@@ -33,7 +33,7 @@
     max-width: 800px;
     width: 100vw;
     aspect-ratio: 3 / 4;
-    max-height: 50vh;
+    max-height: 65vh;
     filter: saturate(2.5);
 }
 .imageOverlay{
