@@ -35,7 +35,7 @@ export default function Home() {
         
         <section className={styles.aboutSection}>
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
-        <div class="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app></div>
+        <div class="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app-lazy></div>
         </section>
   {/*    
         <div className={styles.breakfastDiv}>
