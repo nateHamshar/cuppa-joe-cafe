@@ -76,7 +76,7 @@
 .CTAfirst, .CTAsecond{
     border: 2px solid white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     background-color: rgba(32, 32, 32, 0.64);
     height: 2rem;
     width: 10rem;
