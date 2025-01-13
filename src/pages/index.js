@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
-import Carousel from "../components/Carousel.js"
 
 
 export default function Home() {
@@ -37,42 +36,7 @@ export default function Home() {
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
         <div class="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app-lazy></div>
         </section>
-  {/*    
-        <div className={styles.breakfastDiv}>
 
-          <h1 className={styles.breakfastHeader}>Need Breakfast On The Go?</h1>
-          
-          <div className={styles.pastryImage}>
-          <button className={styles.breakfastCTA}><a className={styles.CTAlink} href='/error-page'>View Breakfast Menu</a></button>
-            <Image
-              src="/breakfast-circle.png"
-              fill={true}
-              alt=''
-              className={styles.rotate}
-            />
-          </div>
-        </div>
-
-        <div className={styles.iceCreamBanner1}></div>
-        <div className={styles.iceCreamDiv}>
-          
-          <div className={styles.iceCreamText}>
-            <h1 className={styles.iceCreamHeader}>Craving Sugar?</h1>
-            <h2 className={styles.iceCreamSubheader}>We've got you covered.</h2>
-            <a href='/error-page' className={styles.iceCreamCTA}>See Ice Cream Menu</a>
-          </div>
-          <div className={styles.iceCreamImage}>
-            <Image
-              src="/cake-cone.png"
-              fill={true}
-              alt=''
-              className={styles.cakeCone}
-            />
-          </div>
-        </div>
-        <div className={styles.iceCreamBanner2}></div>
-
-        */}
         <div className={styles.storeDetailsSection}>
           <h1 className={styles.storeHoursHeader}>Store Hours</h1>
           <div className={styles.hoursDiv}>
