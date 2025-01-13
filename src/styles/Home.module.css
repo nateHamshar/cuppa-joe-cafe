@@ -21,7 +21,9 @@
     margin-top: 4rem;
     display: flex;
     width: 100vw;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .banner{
     height: 3rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -96,9 +98,11 @@
     margin-left: 1rem;
 }
 .aboutSection{
-    margin-top: 2rem;
+    margin-top: 5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
 }
-.aboutParagraph{
+/* .aboutParagraph{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -108,183 +112,11 @@
     font-size: 1rem;
     line-height: 2rem;
     color: var(--primary-color);
-}
-
-
-.imageCarousel{
-    width: 80%;
-    height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    position: relative;
-}
-
-.overlay {
-    z-index: 1;
-    position: absolute;
-    height: 900px;
-    width: 400px;
-    background-color: rgba(128, 128, 128, 0.5);
-    pointer-events: none; 
-  }
-
-.landingCTA{
-    background-color: transparent;
-    border: 1px solid orangered;
-    padding: .25rem;
-    border-radius: 5px;
-    color: orangered;
-    font-size: 1rem;
-    width: 40%;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 20%;
-    z-index: 1;
-}
-.CTAlink{
-    text-decoration: none;
-    color: orangered;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
-
-.breakfastDiv{
-    margin-top: 8rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.breakfastHeader{
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    text-align: center;
-}
-.pastryImage{
-    margin-top: 2rem;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    max-width: 600px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-}
-
-.breakfastCTA{
-    background-color: transparent;
-    border: 4px solid orangered;
-    height: 35%;
-    width: 35%;
-    border-radius: 50%;
-    color: orangered;
-    font-size: 1.5rem;
-    margin-left: -17.5%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -17.5%;
-    z-index: 1;
-}
-.CTAlink{
-    text-decoration: none;
-    color: orangered;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
-.rotate{
-    animation: rotate 120s linear infinite; 
-}
-
-@keyframes rotate{
-    to{ transform: rotate(360deg); }
-}
-
-
-
-.iceCreamDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.iceCreamBanner1, .iceCreamBanner2{
-    height: .5rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--primary-color);
-    border-bottom: .2rem solid var(--secondary-color);
-    border-top: .2rem solid var(--secondary-color);
-}
-
-.iceCreamBanner1{
-    margin-top: 10rem;
-}
-
-.iceCreamText{
-    font-family: "Bebas Neue", sans-serif;
-    width: 50%;
-    padding-left: 2vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.iceCreamHeader{
-    width: 300px;
-    font-weight: 500;
-    font-size: 1.7rem;
-}
-
-.iceCreamSubheader{
-    font-weight: 300;
-    font-size: 1.25rem;
-    width: 350px;
-    
-}
-
-.iceCreamImage{
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 38vw;
-    max-width: 300px;
-    aspect-ratio: 547 / 916;
-    background-color: transparent;
-}
-
-.iceCreamCTA{
-    background-color: transparent;
-    text-decoration: none;
-    border: 1px solid orangered;
-    padding: .25rem;
-    border-radius: 5px;
-    color: orangered;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    width: 75%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-}
+} */
 
 
 .storeDetailsSection{
-    margin-top: 10rem;
+    margin-top: 5rem;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -296,6 +128,7 @@
     font-weight: 300;
 }
 .hoursDiv{
+    margin-top: 1rem;
     display: flex;
     width: 100%;
     max-width: 800px;

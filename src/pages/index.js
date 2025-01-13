@@ -34,15 +34,8 @@ export default function Home() {
 
         
         <section className={styles.aboutSection}>
-          <h1 className={styles.aboutHeader}></h1>
-          <p className={styles.aboutParagraph}>Discover the heart of your community at Cuppa Joe Cafe, a locally owned shop for coffee enthusiasts. Immerse yourself in the rich aroma of our hand-crafted coffee and espresso drinks, complemented by an array of delightful homemade pastries. Join us at Cuppa Joe, where every cup is a taste of local pride and passion.</p>
-        </section>
-
-        <section className={styles.featuredSection}>
-          <div className={styles.featuredImages}></div>
-          <p className={styles.aboutParagraph}>
-          From rich and robust coffee blends to refreshing smoothies, we have crafted a menu that caters to every taste bud. If you're starting your day, explore our tempting breakfast options featuring freshly baked pastries and savory sandwiches.
-          </p>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app-lazy></div>
         </section>
   {/*    
         <div className={styles.breakfastDiv}>
