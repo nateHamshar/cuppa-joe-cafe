@@ -1,7 +1,6 @@
 
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import Image from 'next/image'
 import { motion } from "framer-motion"
 import Hero from '@/components/Hero'
 
@@ -19,12 +18,19 @@ export default function Home() {
 
         <Hero />
         
-        <section className={styles.aboutSection}>
+        <motion.section className={styles.aboutSection}
+          initial={{ opacity: 0}}
+          whileInView={{ opacity: 1}}
+          transition={{ duration: 1.5 }}>
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
-        <div class="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app-lazy></div>
-        </section>
+        <div className="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app-lazy></div>
+        </motion.section>
 
-        <div className={styles.storeDetailsSection}>
+        <motion.div className={styles.storeDetailsSection}
+          initial={{ opacity: 0}}
+          whileInView={{ opacity: 1}}
+          transition={{ duration: 1.5 }}
+        >
           <h1 className={styles.storeHoursHeader}>Store Hours</h1>
           <div className={styles.hoursDiv}>
             <ul className={styles.dayList}>
@@ -50,7 +56,7 @@ export default function Home() {
             <h1 className={styles.address}>90 Joshua Ln, Palmyra, VA 22963</h1>
             <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.3770713380713!2d-78.31570492365849!3d37.898248205037135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3ecbf6dbc22ef%3A0x625f304d86c8ab5b!2sCuppa%20Joe!5e0!3m2!1sen!2sus!4v1691457695711!5m2!1sen!2sus" width="350" height="350" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
-        </div>
+        </motion.div>
         <div className={styles.spacerDiv}></div>
 
   
