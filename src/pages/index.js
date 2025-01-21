@@ -1,7 +1,9 @@
+
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
-
+import { motion } from "framer-motion"
+import Hero from '@/components/Hero'
 
 export default function Home() {
 
@@ -15,22 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-        <section className={styles.landingDiv}>
-          <div className={styles.heroImage}>
-            <Image
-              src="/cuppajoelobby.jpg"
-              fill={true}
-              alt=''
-            />
-            <div className={styles.imageOverlay}></div>
-            <h1 className={styles.heroTitle}>Cuppa Joe Cafe</h1>
-            <div className={styles.heroCTADiv}>
-              <a href="tel:4345910100" className={styles.CTAfirst}>(434) 591-0100</a>
-              <a href="/menu" className={styles.CTAsecond}>View Menu</a>
-            </div>
-          </div>
-        </section>
-
+        <Hero />
         
         <section className={styles.aboutSection}>
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
