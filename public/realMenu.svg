@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 587.76 830.46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 30px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Limelight-Regular, Limelight;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 1.02 20.42;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 18px;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 1 20.08;
+      }
+
+      .cls-8 {
+        stroke-dasharray: 1 20;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <path className="cls-9" d="M294.04,1.5C132.65,1.5,1.82,132.33,1.82,293.72h-.32v535.24h584.76V293.72c0-161.39-130.83-292.22-292.22-292.22Z"/>
+  </g>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-4">
+        <text class="cls-1" transform="translate(55.58 230.16) scale(.88 1)"><tspan x="0" y="0">Coffee</tspan></text>
+        <text class="cls-3" transform="translate(55.58 260.16) scale(.88 1)"><tspan x="0" y="0">Drip</tspan></text>
+        <text class="cls-3" transform="translate(55.58 290.16) scale(.88 1)"><tspan x="0" y="0">Cold Brew</tspan></text>
+        <text class="cls-3" transform="translate(55.58 320.16) scale(.88 1)"><tspan x="0" y="0">Espresso</tspan></text>
+        <text class="cls-3" transform="translate(55.58 350.16) scale(.88 1)"><tspan x="0" y="0">Latte</tspan></text>
+        <text class="cls-3" transform="translate(55.58 380.16) scale(.88 1)"><tspan x="0" y="0">Flavored Latte</tspan></text>
+        <text class="cls-3" transform="translate(55.58 410.16) scale(.88 1)"><tspan x="0" y="0">Americano</tspan></text>
+        <text class="cls-3" transform="translate(55.58 440.16) scale(.88 1)"><tspan x="0" y="0">Cappuccino</tspan></text>
+        <text class="cls-3" transform="translate(55.58 470.16) scale(.88 1)"><tspan x="0" y="0">French Press</tspan></text>
+      </g>
+      <g class="cls-4">
+        <text class="cls-3" transform="translate(391.3 260.16)"><tspan x="0" y="0">2.59 / 3.01 / 3.43</tspan></text>
+        <text class="cls-3" transform="translate(391.3 290.16)"><tspan x="0" y="0">2.59 / 3.01 / 3.43</tspan></text>
+        <text class="cls-3" transform="translate(497.1 320.16)"><tspan x="0" y="0">2.23</tspan></text>
+        <text class="cls-3" transform="translate(389.88 350.16)"><tspan x="0" y="0">4.25 / 5.03 / 5.81</tspan></text>
+        <text class="cls-3" transform="translate(391.03 380.16)"><tspan x="0" y="0">5.19 / 5.97 / 6.74</tspan></text>
+        <text class="cls-3" transform="translate(396 410.16)"><tspan x="0" y="0">3.11 / 3.68 / 4.25</tspan></text>
+        <text class="cls-3" transform="translate(389.88 440.16)"><tspan x="0" y="0">4.25 / 5.03 / 5.81</tspan></text>
+        <text class="cls-3" transform="translate(500.86 470.16)"><tspan x="0" y="0">6.12</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g class="cls-4">
+        <text class="cls-1" transform="translate(54.33 506.11)"><tspan x="0" y="0">Non-Coffee</tspan></text>
+        <text class="cls-3" transform="translate(54.33 536.11)"><tspan x="0" y="0">Hot Chocolate</tspan></text>
+        <text class="cls-3" transform="translate(54.33 566.11)"><tspan x="0" y="0">Fruit Smoothie</tspan></text>
+        <text class="cls-3" transform="translate(54.33 596.11)"><tspan x="0" y="0">Protein Smoothie</tspan></text>
+        <text class="cls-3" transform="translate(54.33 626.11)"><tspan x="0" y="0">London Fog</tspan></text>
+        <text class="cls-3" transform="translate(54.33 656.11)"><tspan x="0" y="0">Chai Latte</tspan></text>
+        <text class="cls-3" transform="translate(54.33 686.11)"><tspan x="0" y="0">Tea</tspan></text>
+      </g>
+      <g class="cls-4">
+        <text class="cls-3" transform="translate(393 536.11)"><tspan x="0" y="0">3.37 / 3.89 / 4.41</tspan></text>
+        <text class="cls-3" transform="translate(390.25 566.11)"><tspan x="0" y="0">4.88 / 5.50 / 6.12</tspan></text>
+        <text class="cls-3" transform="translate(495.45 596.11)"><tspan x="0" y="0">6.69</tspan></text>
+        <text class="cls-3" transform="translate(501.27 626.11)"><tspan x="0" y="0">4.15</tspan></text>
+        <text class="cls-3" transform="translate(396.42 656.11)"><tspan x="0" y="0">4.10 / 4.87 / 5.81</tspan></text>
+        <text class="cls-3" transform="translate(498.1 686.11)"><tspan x="0" y="0">2.33</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g class="cls-4">
+        <text class="cls-1" transform="translate(53.94 720.89)"><tspan x="0" y="0">Extas</tspan></text>
+        <text class="cls-3" transform="translate(53.94 750.89)"><tspan x="0" y="0">Oat, Almond, or Soy Milk</tspan></text>
+        <text class="cls-3" transform="translate(53.94 780.89)"><tspan x="0" y="0">Extra Shot</tspan></text>
+        <text class="cls-3" transform="translate(53.94 810.89)"><tspan x="0" y="0">Extra Flavor</tspan></text>
+      </g>
+      <g class="cls-4">
+        <text class="cls-3" transform="translate(508.39 750.89)"><tspan x="0" y="0">.52</tspan></text>
+        <text class="cls-3" transform="translate(507.36 780.89)"><tspan x="0" y="0">.99</tspan></text>
+        <text class="cls-3" transform="translate(509.87 810.89)"><tspan x="0" y="0">.72</tspan></text>
+      </g>
+    </g>
+    <g class="cls-4">
+      <text class="cls-2" transform="translate(124.5 137.14)"><tspan x="0" y="0">Cuppa Joe</tspan></text>
+    </g>
+    <g>
+      <line class="cls-6" x1="152.45" y1="221.6" x2="152.95" y2="221.6"/>
+      <line class="cls-8" x1="172.95" y1="221.6" x2="519.99" y2="221.6"/>
+      <line class="cls-6" x1="529.99" y1="221.6" x2="530.49" y2="221.6"/>
+    </g>
+    <g>
+      <line class="cls-6" x1="238.68" y1="498.28" x2="239.18" y2="498.28"/>
+      <line class="cls-7" x1="259.26" y1="498.28" x2="523.28" y2="498.28"/>
+      <line class="cls-6" x1="533.32" y1="498.28" x2="533.82" y2="498.28"/>
+    </g>
+    <g>
+      <line class="cls-6" x1="144.58" y1="713.62" x2="145.08" y2="713.62"/>
+      <line class="cls-5" x1="165.5" y1="713.62" x2="519.78" y2="713.62"/>
+      <line class="cls-6" x1="529.99" y1="713.62" x2="530.49" y2="713.62"/>
+    </g>
+  </g>
+</svg>
