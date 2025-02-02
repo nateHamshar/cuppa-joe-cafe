@@ -22,7 +22,7 @@ export default function Home() {
           initial={{ opacity: 0}}
           whileInView={{ opacity: 1}}
           transition={{ duration: 1.5 }}>
-        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <script src="https://static.elfsight.com/platform/platform.js"></script>
         <div className="elfsight-app-cba74b88-f8d4-4614-8406-64679fb7d75b" data-elfsight-app-lazy></div>
         </motion.section>
 

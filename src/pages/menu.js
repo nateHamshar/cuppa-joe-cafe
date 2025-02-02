@@ -1,16 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/menu.module.css'
 import Image from 'next/image'
-import { Limelight, Poppins } from 'next/font/google';
 
-const limelight = Limelight({
-    weight: ['400'],
-    subsets: ['latin'],
-});
-const poppins = Poppins({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-});
 
 const Menu = () => {
     return (
@@ -21,10 +12,10 @@ const Menu = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/cuppa_joe_mug_icon.png" />
         </Head>
-        <main className={`${limelight.className} ${poppins.className}`}>
+        <main>
             <div className={styles.menuImage}>
                 <Image
-                    src="/realMenu.svg"
+                    src="/menu.JPG"
                     fill={true}
                     alt=''
                 />

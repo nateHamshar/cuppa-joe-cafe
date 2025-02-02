@@ -7,11 +7,11 @@
       }
 
       .cls-1, .cls-2 {
-        font-family: Limelight-Regular, Limelight;
+        font-family: Limelight;
       }
 
       .cls-1, .cls-2, .cls-3 {
-        fill: #231f20;
+        fill:rgb(226, 226, 226);
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4 {
@@ -32,7 +32,7 @@
 
       .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
         fill: none;
-        stroke: #231f20;
+        stroke:rgb(150, 150, 150);
         stroke-miterlimit: 10;
         stroke-width: 3px;
       }
@@ -49,6 +49,7 @@
       .cls-8 {
         stroke-dasharray: 1 20;
       }
+
     </style>
   </defs>
   <g id="Layer_3" data-name="Layer 3">
