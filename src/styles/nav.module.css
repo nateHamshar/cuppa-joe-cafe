@@ -135,7 +135,7 @@
 
 
 .bigNavContainer{
-
+    background-color: white;
     display: flex;
     align-items: center;
     padding-top: 1rem;
