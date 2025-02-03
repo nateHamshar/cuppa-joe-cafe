@@ -18,6 +18,7 @@ const Menu = () => {
                     src="/menu.JPG"
                     fill={true}
                     alt=''
+                    priority
                 />
             </div>
         </main>
