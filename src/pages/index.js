@@ -13,6 +13,7 @@ export default function Home() {
         <meta name="description" content="Cuppa Joe Cafe" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/cuppa_joe_mug_icon.png" />
+        <link rel="preload" href="/cuppaHero.jpg" as="image" />
       </Head>
       <main className={styles.main}>
 
