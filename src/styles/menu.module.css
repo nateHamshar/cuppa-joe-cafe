@@ -23,8 +23,7 @@
     font-size: 2rem;
     font-weight: 400;
     color: rgb(41, 41, 41);
-    text-decoration: underline 2px solid orangered;
-    text-underline-offset: 10px;
+    border-bottom: 3px solid orangered;
 }
 .groupList{
     margin-top: 1rem;
