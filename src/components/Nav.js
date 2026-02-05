@@ -61,7 +61,7 @@ const Nav = () => {
                         <div className={styles.navItem}><a className={styles.navLink}href="/drink-types">Types of Drinks</a></div>
                         <div className={styles.navInfo}>
                             <h1 className={styles.storeName}>Cuppa Joe Cafe</h1>
-                            <a className={styles.storeNumber} href='tel:434-591-0100'>+1 (434) 591-0100</a>
+                            <a className={styles.storeNumber} href='tel:434-373-2739'>+1 (434) 373-2739</a>
                             <h2 className={styles.storeAddress}>90 Joshua Lane</h2>
                             <h2 className={styles.storeAddress}>Palmyra, VA 22963</h2>
                         </div>
