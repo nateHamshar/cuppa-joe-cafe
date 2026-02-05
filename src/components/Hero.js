@@ -24,7 +24,7 @@ const Hero = () => {
                     transition={{ duration: 1.5 }}
                 >
 
-                    <a href="tel:4345910100" className={styles.CTAfirst}>(434) 591-0100</a>
+                    <a href="tel:4343732739" className={styles.CTAfirst}>(434) 373-2739</a>
 
                     <a href="/menu" className={styles.CTAsecond}>View Menu</a>
 
